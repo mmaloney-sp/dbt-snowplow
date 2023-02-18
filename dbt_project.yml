@@ -9,6 +9,16 @@ config-version: 2
 # This setting configures which "profile" dbt uses for this project.
 profile: 'default'
 
+packages:
+  - package: snowplow/snowplow_web
+    version: 0.9.3
+  - package: snowplow/snowplow_fractribution
+    version: 0.1.0
+  - package: snowplow/snowplow_ecommerce
+    version: 0.3.0
+  - package: snowplow/snowplow_normalize
+    version: 0.2.1
+
 # These configurations specify where dbt should look for different types of files.
 # The `source-paths` config, for example, states that models in this project can be
 # found in the "models/" directory. You probably won't need to change these!
