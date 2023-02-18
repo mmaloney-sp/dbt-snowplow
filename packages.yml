@@ -1,0 +1,9 @@
+packages:
+  - package: snowplow/snowplow_web
+    version: 0.9.3
+  - package: snowplow/snowplow_fractribution
+    version: 0.1.0
+  - package: snowplow/snowplow_ecommerce
+    version: 0.3.0
+  - package: snowplow/snowplow_normalize
+    version: 0.2.1
